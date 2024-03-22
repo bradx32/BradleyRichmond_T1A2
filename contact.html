@@ -4,26 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
-    <link rel="styleshet" href="contact.css"/>
+    <link rel="stylesheet" href="contact.css"/>
     <title>Brad Richmond Contact</title>
 </head>
 <body>
     <header>
-        <h1>Contact Me</h1>
+        <a href="/index.html">
+            <img src="/images/home-icon.png" alt="Letter B Nav">
+        </a>
+        <h1>Bradley<br>Richmond</h1>
         <nav>
             <a href="/index.html">Home</a>
             <a href="/about.html">About</a>
             <a href="/projects.html">Projects</a>
             <a href="/blog.html">Blog</a>
             <a href="/contact.html">Contact</a>
+            <a href="https://github.com/bradx32">
+                <img src="/images/github-logo-white.png" alt="Github logo" style="width: 1em; height: 1em;">
+            </a>
         </nav>
     </header>
 
 <main>
     
-    <img src="./docs/contact-emoji.jpg" alt="Contact Me image"/>
+    <img src="./images/contact-emoji.jpg" alt="Contact Me image"/>
+    <section class="mycontact">
+        <h2>My details</h2>
+        <p><strong>Email: example@hotmail.com</strong></p>
+        <p><strong>Phone: 0412 345 678</strong></p>
+        <p>Or fill out the contact form below!</p>
+        <br>
+
+
+    </section>
+    <h3>Contact Form</h3>
    <form>
-    <div class="container">
+    <section class="contactContainer">
         <form action="action_page.php">
       
           <label for="fname">First Name:</label>
@@ -32,17 +48,20 @@
       
           <label for="lname">Last Name:</label>
           <input type="text" id="lname" name="lastname" placeholder="Smith...">
-          <br>      
+          <br>
+          
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" placeholder="johnsmith@hotmail.com">
+          <br>
                 
           <label for="subject">Subject:</label>
-          <textarea id="subject" name="subject" placeholder="Content"></textarea>
+          <textarea id="subject" name="subject" placeholder="Enquiry here" ></textarea>
           <br>
-          <br>
-               
+                         
           <input type="submit" value="Submit">
       
         </form>
-      </div>
+    </section>
    </form>
       
 
