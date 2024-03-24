@@ -1,3 +1,5 @@
+
+
 /* Gold Coast img detail */
 main > img {
   max-height: 25dvh;
@@ -17,20 +19,22 @@ main > img {
     }
 }
 
-.abouthobbies > img {
-    max-height: 20dvh;
-    max-width: 60dvw;
-    border-radius: 1em;
+/* Hobbies title with background*/
+#hobbies-heading {
+    background-color: var(--cadet-gray);
+    padding: 0.3em;
+    border-radius: 0.3em;
 }
 
-.abouthobbies {
-    /* max-width: 65dvw; */
+
+
+.hobbies-content {
+    width: 60dvw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 1em;
-    margin-top: 1dvh;
     margin-bottom: 3dvh;
     padding: 1em;
     background-color: var(--cadet-gray);
@@ -38,19 +42,26 @@ main > img {
     box-shadow: 0.5em 0.5em var(--paynes-gray);
 }
 
-.abouthobbies:hover {
+/* Hobbies content box Desktop/Tablet view */
+@media screen and (min-width:600px) {
+    .hobbies-content {
+        width: 40dvw;
+    }
+}
+
+.hobbies-content > img {
+    max-height: 25dvh;
+    max-width: 60dvw;
+    border-radius: 1em;
+}
+
+.hobbies-content:hover {
     border-radius: 1.5em;
     transition: 1s;
 }
 
-.abouthobbies > section {
-    display: flex;
-    column-gap: 2em;
-}
-
-.hobbiescontentrow {
-    max-width: 70dvw;
-    max-height: 60dvh;
+.hobbies-content > p {
+    width: 80%;
 }
 
 /* Introduction to about page */

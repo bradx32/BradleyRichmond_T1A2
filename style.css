@@ -107,13 +107,6 @@ main {
     max-height: 10dvh;
 }
 
-/*  */
-section > p {
-    max-width: 60dvw;
-    display: flex;
-    flex-direction: column;
-}
-
 /* Main items set margin */
 main > * {
     margin: 0.5em;
