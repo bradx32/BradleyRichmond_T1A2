@@ -1,0 +1,12 @@
+/* Blog post images max width/height */
+main > img {
+    max-width: 50dvw;
+    max-height: 50dvh;
+}
+
+/* Desktop/Tablet view resizing large image */
+@media screen and (min-width: 600px) {
+    #blog1 {
+        max-width: 37dvw;    
+}
+}
