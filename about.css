@@ -1,0 +1,84 @@
+/* Gold Coast img detail */
+main > img {
+  max-height: 25dvh;
+  max-width: 85dvw;
+  border-radius: 0.3em;
+}
+
+/* Desktop and Tablet view changes on main img */
+@media screen and (min-width: 600px) {
+    main > img {
+        max-height: 40dvh;
+        max-width: 85dvw;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.abouthobbies > img {
+    max-height: 20dvh;
+    max-width: 60dvw;
+    border-radius: 1em;
+}
+
+.abouthobbies {
+    /* max-width: 65dvw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1em;
+    margin-top: 1dvh;
+    margin-bottom: 3dvh;
+    padding: 1em;
+    background-color: var(--cadet-gray);
+    border-radius: 0.5em;
+    box-shadow: 0.5em 0.5em var(--paynes-gray);
+}
+
+.abouthobbies:hover {
+    border-radius: 1.5em;
+    transition: 1s;
+}
+
+.abouthobbies > section {
+    display: flex;
+    column-gap: 2em;
+}
+
+.hobbiescontentrow {
+    max-width: 70dvw;
+    max-height: 60dvh;
+}
+
+/* Introduction to about page */
+.aboutinfo {
+    max-width: 85dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2em;
+    
+}
+
+.aboutinfo > p {
+    max-width: 80dvw;
+}
+
+/* Tablet view: Introduction to about page */
+@media screen and (min-width: 600px) {
+    .aboutinfo > p {
+        max-width: 80dvw;
+    }
+}
+
+/* Desktop view: Introduction to about page */
+@media screen and (min-width: 1000px) {
+    .aboutinfo > p {
+        max-width: 63%;
+    }    
+}

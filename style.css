@@ -85,34 +85,67 @@ body {
     align-items: center;
 }
 
+/* Main pages section min height and margin set to allow for header/footer. Items fall in column, wrapped with center alignment. */
 main {
     min-height: 85dvh;
-    width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     margin-top: 3em;
-    
 }
 
+/* Coding images overall box placement */
+.coding-logos-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Coding images maximum width n height, allowing 20% width left over */
+.coding-logos-container > img {
+    max-width: 20%;
+    max-height: 10dvh;
+}
+
+/*  */
+section > p {
+    max-width: 60dvw;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main items set margin */
 main > * {
     margin: 0.5em;
 }
 
-main > img {
-    height: 20dvh;
-    width: auto;
+/* Home banner image */
+.home-image {
+    height: 30dvh;
     background-color: var(--paynes-gray);
     color: var(--light-cyan);
     object-fit: cover;
 }
 
+/* Home page contact me heading */
+main > a > h4 {
+    text-decoration: none;
+    color: var(--gunmetal);
+    background-color: var(--light-blue);
+    border-radius: 1em;
+    padding: 0.5em;
+}
 
-/* main > h1 { */
-    /* text-align: center; */
-/* } */
+/* Home page contact me heading hover */
+main > a > h4:hover {
+    text-decoration: none;
+    color: var(--gunmetal);
+    background-color: var(--light-cyan);
+    border-radius: 1em;
+    padding: 0.5em;
+}
 
+/* Footer background colour, height, width and alignment across all pages */
 footer {
     background-color: var(--light-blue);
     height: 5dvh;
@@ -123,41 +156,24 @@ footer {
     align-items: center;
 }
 
-.abouthobbies > img {
-    height: 20dvh;
-    border-radius: 1em;
-}
-
-.abouthobbies {
-    max-width: 65dvw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 1em;
-    margin: 2em;
-    padding: 1em;
-    background-color: var(--cadet-gray);
-    border-radius: 0.5em;
-    box-shadow: 0.5em 0.5em var(--paynes-gray);
-}
-
-.abouthobbies:hover {
-    border-radius: 1.5em;
-    transition: 1s;
-}
-
-.abouthobbies > section {
-    display: flex;
-    column-gap: 2em;
-}
 
 
-.contentRow {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 55dvw;
-    max-height: 55dvh;
-    margin: 0;
-}
+/* Desktop view */
+/* @media screen and (min-width: 600px) {
+	.contentRow {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		
+	}
+
+	main {
+		margin: 0;
+	}
+
+	.projectPreview {
+		width: 25dvw;
+		margin: 1em;
+	}
+} */
