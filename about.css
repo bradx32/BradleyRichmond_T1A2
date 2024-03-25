@@ -59,10 +59,10 @@ main > img {
     font-weight: 600;
 }
 
-/* Hobbies content box Desktop/Tablet view */
+/* Hobbies content box Desktop view change*/
 @media screen and (min-width:600px) {
     .hobbies-content {
-        width: 40dvw;
+        width: 35dvw;
     }
 }
 

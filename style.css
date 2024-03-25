@@ -13,7 +13,7 @@
     margin:0;
 }
 
-header > a > img {
+#homeNav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -24,7 +24,7 @@ header > a > img {
     transition: 1s;
 }
 
-header > a > img:hover {
+#homeNav:hover {
     transform: rotate(-10deg);
     transition:  1s;
 }
@@ -76,6 +76,13 @@ nav > a:hover {
     background-color: var(--light-cyan);
     color: var(--gunmetal);
 }
+
+/* Social images link to LinedIn and Github profiles */
+.socialsLink > a > img {
+    max-width: 12dvw;
+    max-height: 5dvh;
+}
+
 
 body {
     display: flex;
@@ -148,25 +155,3 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
-
-
-/* Desktop view */
-/* @media screen and (min-width: 600px) {
-	.contentRow {
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		
-	}
-
-	main {
-		margin: 0;
-	}
-
-	.projectPreview {
-		width: 25dvw;
-		margin: 1em;
-	}
-} */
