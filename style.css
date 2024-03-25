@@ -130,7 +130,7 @@ main > a > h4 {
     padding: 0.5em;
 }
 
-/* Home page contact me heading hover */
+/* Home page contact me button hover */
 main > a > h4:hover {
     text-decoration: none;
     color: var(--gunmetal);
