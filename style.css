@@ -71,6 +71,15 @@ nav > a {
       
 }
 
+/* Desktop view navigation bar */
+@media screen and (min-width: 600px) {
+    nav > a {
+        padding: 1em;
+        font-size: 1.1em;
+        font-weight: 700;
+    }    
+}
+
 /* Navigation bar hover effect */
 nav > a:hover {
     background-color: var(--light-cyan);
@@ -112,6 +121,7 @@ main {
 .coding-logos-container > img {
     max-width: 20%;
     max-height: 10dvh;
+    margin-top: 2em;
 }
 
 /* Main items set margin */

@@ -24,11 +24,12 @@ input[type=text], select, textarea {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
+  /*  */
   input[type=submit] {
     border-radius: 3px;
     width: 22%;
     height: 3dvh;
-    border: 50px var(--light-blue);
+    border: var(--light-blue);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
