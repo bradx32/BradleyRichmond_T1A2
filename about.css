@@ -20,13 +20,28 @@ main > img {
 }
 
 /* Hobbies title with background*/
-#hobbies-heading {
-    background-color: var(--cadet-gray);
-    padding: 0.3em;
-    border-radius: 0.3em;
+.niceheading {
+    background-color: var(--light-blue-600);
+    border-radius: 0.7em;
+    padding: 0.25em;
+    font-size: 1.5em;
+    color: var(--light-cyan);
 }
 
+/* Page heading title with background colour, padding text styling  */
+.special-heading {
+    background-color: var(--light-blue-600);
+    border-radius: 0.7em;
+    padding: 0.5em;
+    font-size: 1.75em;
+    color: var(--light-cyan);
+}
 
+/* Page heading title hover effect changes text and background-colour */
+.special-heading:hover {
+    background-color: var(--light-blue);
+    color: var(--gunmetal);
+}
 
 .hobbies-content {
     width: 60dvw;
@@ -37,9 +52,11 @@ main > img {
     row-gap: 1em;
     margin-bottom: 3dvh;
     padding: 1em;
-    background-color: var(--cadet-gray);
+    background-color: var(--light-blue-600);
     border-radius: 0.5em;
     box-shadow: 0.5em 0.5em var(--paynes-gray);
+    color: var(--light-cyan);
+    font-weight: 600;
 }
 
 /* Hobbies content box Desktop/Tablet view */

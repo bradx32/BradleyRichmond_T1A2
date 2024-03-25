@@ -1,12 +1,47 @@
-/* Blog post images max width/height */
-main > img {
+/* Blogs border and styling to suit mobile view */
+.blogborder {
+    padding: 1em;
+    border: 0.5em solid var(--light-blue-600);
+    border-radius: 1em;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1em;
+}
+
+/* Blog image sizing to suit mobile view */
+.blogimgsizing {
     max-width: 50dvw;
     max-height: 50dvh;
 }
 
-/* Desktop/Tablet view resizing large image */
+/* Blog Post 1 image resize for Desktop view otherwise img too large */
 @media screen and (min-width: 600px) {
-    #blog1 {
+    #blog1img {
         max-width: 37dvw;    
 }
+}
+
+/* Blog Post 2 image resize for Desktop View otherwise image too large and pixelated */
+@media screen and (min-width: 600px) {
+    #blog2img {
+        width: 20dvw;
+    }
+}
+
+/* Page heading title with background colour, padding text styling  */
+.special-heading {
+    background-color: var(--light-blue-600);
+    border-radius: 0.7em;
+    padding: 0.5em;
+    font-size: 1.75em;
+    color: var(--light-cyan);
+}
+
+/* Page heading title hover effect changes text and background-colour */
+.special-heading:hover {
+    background-color: var(--light-blue);
+    color: var(--gunmetal);
 }

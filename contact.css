@@ -42,3 +42,17 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
+/* Page heading title with background colour, padding text styling  */
+.special-heading {
+    background-color: var(--light-blue-600);
+    border-radius: 0.7em;
+    padding: 0.5em;
+    font-size: 1.75em;
+    color: var(--light-cyan);
+}
+
+/* Page heading title hover effect changes text and background-colour */
+.special-heading:hover {
+    background-color: var(--light-blue);
+    color: var(--gunmetal);
+}
