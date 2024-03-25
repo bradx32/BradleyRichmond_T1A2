@@ -20,7 +20,8 @@ input[type=text], select, textarea {
     border-radius: 5px;
     box-sizing: border-box;
     margin-top: 10px;
-    margin-bottom: 12px; 
+    margin-bottom: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   input[type=submit] {
@@ -31,16 +32,21 @@ input[type=text], select, textarea {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Submit button hover effect */
 input[type=submit]:hover {
     background-color: var(--light-cyan);
-    /* color: white; */
+    color: var(--gunmetal);
 }
 
+/* Contact form container border styling */
 .contactContainer {
     border-radius: 5px;
     background-color: var(--light-blue);
     padding: 20px;
+    margin-bottom: 5em;
 }
+
+
 
 /* Page heading title with background colour, padding text styling  */
 .special-heading {
