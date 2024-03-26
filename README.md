@@ -6,9 +6,9 @@
 ### Welcome to my Portfolio Readme file. 
 
 ### Purpose:
-The purpose of my portfolio website is to work as an online resume, information about me and showcasing my work with project pages and blogs. A represenation of myself to any development or IT professional employers.
+The purpose of my portfolio website is to work as an online resume, provide information about me and showcasing my work with project pages and blogs. A represenation of myself to any developer or IT professional employers. The site will gradually change over time as current work and projects are updated.
 
-The purpose is to provide an online portfolio that provides information about me, my skills, interested, professional knowledge and showcase my work.
+
 
 
 ### Functionality/features:
@@ -18,36 +18,48 @@ The purpose is to provide an online portfolio that provides information about me
 - The main functionality of the Home page is 
 - My portfolio page features a Navigation bar in the Header section to provide an easy location to jump between the pages. 
 - The home page has a 'Contact Me!' link that takes you straight to the contact page where you can fill out a form and submit
-- At the beginning of each page there is a colourful and responsive H1 heading with a hover effect. This helps the user engage and navigate across the site.
-- There are several links to Socials, Resume, previous projects and my GITHUB repository. These are located with either a image button link or text via 'Home', 'About' and 'Projects' pages.
+- At the beginning of each page there is a colourful and responsive H1 heading with a hover effect. This helps engage the user while knowing exactly what page they have navigated to.
+- There are several links to Socials (LinkedIn & Github), Resume (mockup), previous projects and my GITHUB repository. These are located with either an image button link or text via 'Home', 'About' and 'Projects' pages.
 - I also decided to include a link to Home button with a house icon at the top left of the screen viewport across all pages to navigate back to the home page. This image icon also has a smooth hover effect animation for improved interaction.
 
 ### Screenshots:
-- Screenshots are from Mobile view as the website is a Mobile first design.
-#### Home Page screenshot (Mobile view)
-![alt text](Home.jpg)
-#### Home Page screenshot (Desktop view)
 
-#### About Page screenshot
-![alt text](About.jpg)
-#### Procjets Page screenshot
-![alt text](Projects.jpg)
-#### Blog Page screenshot
-![alt text](Blog.jpg)
-#### Contact Page screenshot
-![alt text](Contact.jpg)
+#### Home Page screenshot (Mobile view)
+![alt text](docs/Website_Screenshots/Home.jpg)
+#### Home Page screenshot (Desktop view)
+![alt text](docs/Website_Screenshots/Home_desktop.jpg)
+#### About Page screenshot (Mobile view)
+![alt text](docs/Website_Screenshots/About.jpg)
+#### About Page screenshot (Desktop view)
+![alt text](docs/Website_Screenshots/About_desktop.jpg)
+#### Procjets Page screenshot (Mobile view)
+![alt text](docs/Website_Screenshots/Projects.jpg)
+#### Procjets Page screenshot (Desktop view)
+![alt text](docs/Website_Screenshots/Projects_desktop.jpg)
+#### Blog Page screenshot (Mobile view)
+![alt text](docs/Website_Screenshots/Blog.jpg)
+#### Blog Page screenshot (Desktop view)
+![alt text](docs/Website_Screenshots/Blog_desktop.jpg)
+#### Contact Page screenshot (Mobile view)
+![alt text](docs/Website_Screenshots/Contact.jpg)
+#### Contact Page screenshot (Desktop view)
+![alt text](docs/Website_Screenshots/Contact_desktop.jpg)
 
 #### Sitemap:
-- Create
+![alt text](<docs/Sitemap/Bradley Richmond Portfolio Sitemap.jpg>)
 
 ### Target audience: 
-The target audience for the portfolio website is an employer looking to engage a dev and/or IT professional.
+The target audience I would be after is a Developer/IT employer looking for Junion Developers that have a range of skills on creating simple websites with a set colour scheme, blog post pages and form pages. My home page shows the coding languages I can work with as well as mentioning in my About page that I'm currently studying with Coder Academy, a well known and accredited bootcamp. My portfolio provides a brief description of who I am with an example of the HTML pages I can create with CSS styling.
 
-#### Tech stack
+### Tech stack
 - HTML
 - CSS
-- Github repository
-- Netlify used for deployment platform
+- Github repository https://github.com/bradx32/BradleyRichmond_T1A2
+- Netlify used for deployment platform https://app.netlify.com/
+- Wireframes were created using https://www.figma.com/
+- The website https://app.diagrams.net/ was used for sitemap. I then used windows snipping tool to take a screen grab and save as .jpg file.
+- Visual Studio Code used as coding platform for HTML, CSS, Markdown (readme file)
+- Ubuntu terminal used to link VS code and push to GITHUB repo.
 
 
 ## Presentation LINK submission
