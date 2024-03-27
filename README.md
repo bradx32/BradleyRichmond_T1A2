@@ -2,6 +2,10 @@
 
 ## Publish portfolio website: https://bradrichmondprojects.netlify.app/
 ## Github Repository link: https://github.com/bradx32/BradleyRichmond_T1A2
+## Presentation LINK submission: Youtube link https://youtu.be/JGw3Wx072EY
+### Resume: [BradleyRichmond_Resume_Mockup](vscode-local:/Ubuntu/home/bradr/MAR24/BradleyRichmond_T1A2/docs/Bradley%20Richmond%20Resume%20%282024%29%20MOCKUP.pdf)
+### Slidedeck readme .pdf: [slidedeckreadme.pdf](vscode-local:/Ubuntu/home/bradr/MAR24/BradleyRichmond_T1A2/docs/SlidedeckREADME.md.pdf)
+
 
 ### Welcome to my Portfolio Readme file. 
 
@@ -11,14 +15,20 @@ The purpose of my portfolio website is to work as an online resume, provide info
 
 ### Components (Text)
 1. My global style.css stylesheet has a :root font family of "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" which gives the overall text a nicer look compared to timesnewroman.
+
 2.  Page H2 headings for About, Projects, Blog and Contact all have a common theme styling via my 'special-heading' and 'special-heading:hover' classes contained in a semantic section. Creating a larger text heading with blue/green background, padding and border radius. The hover effect changes the background and text colour.
+
 3.  About page I have created a section class card like flexbox container with text styling to increase text weight and colour to stand out on the different background. This making it much easier on the eye and satisfying to look at
+
 4. The semantic NAV section of my header contains the individual page nav links which have been styled with desktop view extra padding, font-size and font-weight to stand out more than the mobile view with much larger buttons to click on for accessibility.
 
 ### Components (Graphical)
 1. In my about page hobbies section I have used a class inside of a semantic section called hobbies-container and hobbies-content to create a graphical box around each sectioned content with a flexbox, background-color, text color, font-weights and box-shadows to portray a unique and visualy pleasing content block.
+
 2. The header section of each page has a 'homenav' image which links back to the index.html (home) page of my portfolio. Nested inside of the semantic Header with an id="homeNav". I created this as an easy visual point of navigation back to the Home page of the website on click. This also has a hover effect rotating to the side which ads to the user experience.
+
 3. The Blog page contains sections with a blogcontainer and blogborder which style the individual posts with a solid border, padding, margin, flex box and row gap. Nicely sectioning off each post and creating easy visibility for the viewer.
+
 4. Contact page utilising a contact 'form' inside of a section class called contactContainer, providing a graphical box around the form with a border-radius, background-color, padding and margin. 
 
 ### Functionality/features:
@@ -78,7 +88,7 @@ Paragraphs were kept concise throughout the site to keep readers focused. Each p
 
 Home page: I wanted to keep this simple with a main image of myself and short description. I have a link straight to my contact page as well as my professional social links to LinkedIn and Github profile page. This page gives an overall of who I am and the coding languages I am learning to use
 
-About page: This page kets more personal and includes a bit more about my personality, where I am from, my working status and hobbies, while still keeping minimal text to not bore the reader. A link to my resume is also found here if a employer would like more information on me. 
+About page: This page gets more personal and includes a bit more about my personality, where I am from, my working status and hobbies, while still keeping minimal text to not bore the reader. A link to my resume is also found here if a employer would like more information on me. 
 
 Projects page: My projects page is a work in progress as I don't currently have alot of work to upload here. Although I am excited to add future projects as I continue to learn. Currently has a link to my GITHUB profile page which then can be navigated to all of my public repositorys. The 2nd link goes straight to my biggest repo which is the 'BigWebsite' worked on in study lessons. 
 
@@ -102,26 +112,5 @@ The target audience I would be after is a Developer/IT employer looking for Juni
 - Ubuntu terminal used to link VS code and push to GITHUB repo.
 
 
-## Presentation LINK submission
-- Youtube link
-- Record using screen recorder?
 
-
-
-
-
-
-
-
-## Documentation must include below: 
-
-### An overview/sitemap of all the pages on website
-- The overall structure of your website and how different pages will be navigated.
-- Show images here.
-
-### Wireframes or mockups of the pages of your website
-- Your decision making process relating to the overall aesthetic of your website.
-- Show images here.
-
-### A list of components that will be used:
-- How components and styling will engage the audience.
+#### This Readme was used as my slide deck for presentation.
