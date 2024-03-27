@@ -1,4 +1,4 @@
-/* Gold Coast img detail */
+/* Gold Coast img styling */
 main > img {
   max-height: 25dvh;
   max-width: 85dvw;
@@ -26,7 +26,7 @@ main > img {
     color: var(--light-cyan);
 }
 
-/* Page heading title with background colour, padding text styling  */
+/* Page heading title with background colour, padding and text styling  */
 .special-heading {
     background-color: var(--light-blue-600);
     border-radius: 0.7em;
