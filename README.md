@@ -111,6 +111,4 @@ The target audience I would be after is a Developer/IT employer looking for Juni
 - Visual Studio Code used as coding platform for HTML, CSS, Markdown (readme file)
 - Ubuntu terminal used to link VS code and push to GITHUB repo.
 
-
-
 #### This Readme was used as my slide deck for presentation.
